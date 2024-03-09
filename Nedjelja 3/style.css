@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 135, 245);
+}
+
+.global-padding {
+  padding: 16px 100px;
+}
+
+.container .nav {
+  background-color: rgb(212, 212, 212);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .nav img {
+  height: 60px;
+}
+
+.container .nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container .nav ul li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+..container .nav ul li:last-child {
+  margin-right: 0;
+}
+
+.container .nav ul li a {
+  padding: 4px;
+  color: rgba(0, 0, 0, 0.837);
+}
+
+.bg-image {
+  height: 300px;
+  background-image: url("./img/reinhart-julian-WxM465oM4j4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ili .bg-image * */
+.bg-image h1,
+p {
+  margin-top: 0;
+}
+
+.bg-image {
+  margin: 0;
+}
+
+section.description p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+section.description p:last-child {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-wrapper .blog-card {
+  width: 200px;
+  margin: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-wrapper .blog-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-wrapper .card-content {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper .card-content h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.card-wrapper .card-content span {
+  font-style: italic;
+  font-size: 12pxs;
+  color: rgb(106, 106, 127);
+}
+
+.card-wrapper .card-content a {
+  font-size: 12px;
+  align-self: flex-end;
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.736);
+  text-align: center;
+}
+
+.footer img {
+  height: 100px;
+}
+
+/* .footer div {
+  padding: 16px;
+} */
+
+.footer > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer .follow-us * {
+  display: flex;
+}
+
+.footer .follow-us i {
+  display: inline;
+  padding: 8px;
+}
