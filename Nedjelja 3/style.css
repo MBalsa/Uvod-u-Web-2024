@@ -17,6 +17,7 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
+  border-bottom: 8px solid rgb(212, 212, 212);
 }
 
 .container .nav {
@@ -125,6 +126,8 @@ section.description p:last-child {
   font-style: italic;
   font-size: 12pxs;
   color: rgb(106, 106, 127);
+  display: inline-block;
+  margin-bottom: 6px;
 }
 
 .card-wrapper .card-content a {
@@ -133,6 +136,7 @@ section.description p:last-child {
 }
 
 .footer {
+  margin-top: 60px;
   border-top: 1px solid rgba(0, 0, 0, 0.736);
   text-align: center;
 }
