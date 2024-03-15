@@ -14,6 +14,11 @@ a {
   padding: 16px 100px;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .container .nav {
   background-color: rgb(212, 212, 212);
 
@@ -36,9 +41,11 @@ a {
 .container .nav ul li {
   display: inline-block;
   margin-right: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-..container .nav ul li:last-child {
+.container .nav ul li:last-child {
   margin-right: 0;
 }
 
@@ -48,7 +55,7 @@ a {
 }
 
 .bg-image {
-  height: 300px;
+  height: 400px;
   background-image: url("./img/reinhart-julian-WxM465oM4j4-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,6 +81,7 @@ section.description p {
   margin-top: 0;
   margin-bottom: 16px;
   text-align: center;
+  padding: 8px;
 }
 
 section.description p:last-child {
