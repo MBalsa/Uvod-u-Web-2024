@@ -1,0 +1,58 @@
+.main-reg {
+  width: 80%;
+  margin: 24px auto;
+  display: flex;
+  gap: 48px;
+}
+.img-reg {
+  width: 50%;
+  border-radius: 12px;
+  align-self: center;
+}
+
+.reg {
+  text-align: center;
+  margin: 18px 0;
+  width: 100%;
+  align-self: center;
+}
+
+h1 {
+  margin-bottom: 18px;
+}
+
+p {
+  margin-bottom: 28px;
+}
+
+form {
+  text-align: left;
+}
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+input:nth-of-type(4) {
+  margin-bottom: 52px;
+}
+
+.btn {
+  background-color: #472f1d;
+  color: #fffc;
+  padding: 16px;
+}
+
+.btn:hover {
+  background-color: #472f1d7c;
+  color: #472f1d;
+}
