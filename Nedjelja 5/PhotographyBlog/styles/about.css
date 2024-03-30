@@ -1,0 +1,125 @@
+.contain {
+  padding: 0 10%;
+  margin: 0 auto;
+}
+
+main img {
+  width: 600px;
+  padding: 40px;
+}
+
+.about-us-1 {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  padding-bottom: 24px;
+}
+
+.about-text-1 {
+  padding: 32px;
+  padding-left: 0;
+}
+
+.about-text-1 h2 {
+  text-align: right;
+  margin-bottom: 28px;
+  font-size: 40px;
+}
+
+.about-text-1 p {
+  margin-bottom: 52px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.about-us-2 {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  background-color: #472f1d7c;
+  padding-bottom: 24px;
+}
+
+.about-text-2 {
+  padding: 32px;
+  padding-right: 0;
+}
+
+.about-text-2 h2 {
+  margin-bottom: 28px;
+  font-size: 40px;
+}
+
+.about-text-2 p {
+  margin-bottom: 52px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #a0958c;
+  padding: 12px 24px;
+  color: #472f1d;
+  border-radius: 16px;
+  border: 1px solid #472f1d;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #472f1d;
+  color: #fffc;
+}
+
+.artists {
+  text-align: center;
+  padding: 72px 0;
+}
+
+.artists h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.artists-text {
+  font-size: 20px;
+  margin-bottom: 52px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.art-card {
+  padding: 24px;
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 14px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.25s;
+}
+.profile-pic {
+  width: 90%;
+  border: 2px solid #472f1d;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.art-name {
+  font-weight: 700;
+  padding: 12px 0;
+  font-size: 20px;
+}
+
+.art-title {
+  padding: 6px;
+}
+
+.art-card:hover {
+  transform: scale(1.1);
+}
