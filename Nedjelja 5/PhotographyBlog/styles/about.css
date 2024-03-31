@@ -56,6 +56,11 @@ main img {
   line-height: 1.5;
 }
 
+.btn--right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
 .btn:link,
 .btn:visited {
   background-color: #a0958c;
