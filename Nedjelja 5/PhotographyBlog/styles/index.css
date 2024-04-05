@@ -122,7 +122,7 @@ section.description {
   background-color: #472f1d;
 }
 
-@media only screen and (max-width: 1020px) {
+/* @media only screen and (max-width: 1020px) {
   .main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -199,9 +199,9 @@ section.description {
     margin-right: 0;
     margin-bottom: 8px;
   }
-}
+} */
 
-/* @media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
   .main {
     display: grid;
     grid-template-columns: 100%;
@@ -248,12 +248,12 @@ section.description {
     width: 100%;
   }
 
-  .footer div.flex-row {
+  /* .footer div.flex-row {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
   .footer div.flex-column {
-  }
-} */
+  } */
+}

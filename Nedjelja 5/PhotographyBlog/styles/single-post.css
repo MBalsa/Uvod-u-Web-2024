@@ -55,3 +55,9 @@
   padding: 8px 0 10px 0;
   color: rgb(187, 187, 187);
 }
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .main-sp {
+    flex-direction: column;
+  }
+}

@@ -128,3 +128,33 @@ main img {
 .art-card:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  main img {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .about-us-1 {
+    flex-direction: column;
+  }
+  .about-text-1 {
+    padding: 0;
+    padding-bottom: 24px;
+  }
+  .about-text-1 h2 {
+    text-align: left;
+  }
+  .about-us-2 {
+    flex-direction: column;
+  }
+  .about-text-2 {
+    padding: 32px 0;
+  }
+  .artists-text {
+    padding: 020px;
+  }
+  .team-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

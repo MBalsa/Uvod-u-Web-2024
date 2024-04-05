@@ -48,3 +48,9 @@ textarea {
   background-color: #472f1d;
   color: #fffc;
 }
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .contact {
+    padding: 32px 7%;
+  }
+}

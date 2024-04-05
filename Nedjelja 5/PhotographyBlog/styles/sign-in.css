@@ -59,3 +59,9 @@ input:nth-of-type(2) {
   background-color: #472f1d7c;
   color: #472f1d;
 }
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .sign-in {
+    margin: 62px 34px;
+  }
+}
