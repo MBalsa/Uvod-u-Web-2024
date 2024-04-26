@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  background-color: grey;
+  width: 700px;
+  height: 400px;
+  margin-top: 100px;
+  border-radius: 30px;
+  display: flex;
+  box-shadow: rgb(21, 21, 21) 0px 20px 30px -10px;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  gap: 10px;
+  margin: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: rgb(62, 62, 62);
+  color: aliceblue;
+  font-weight: 900;
+  font-size: large;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+label {
+  color: aliceblue;
+  font-size: large;
+}
+
+.power {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.power--btn {
+  width: 105px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.power--btn-box {
+  width: 45px;
+  height: 40px;
+  background-color: red;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.on {
+  justify-content: flex-end;
+}
+
+.sound-name {
+  padding: 20px;
+  background-color: rgb(62, 62, 62);
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: large;
+}
+
+.slidecontainer {
+  width: 800%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #b6ad60;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.bank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.bank--btn {
+  width: 105px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bank--btn-box {
+  width: 45px;
+  height: 40px;
+  background-color: rgb(40, 61, 139);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.onBank {
+  justify-content: flex-end;
+}
